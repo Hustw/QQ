@@ -35,7 +35,7 @@ Name是配置mysql server时填写的服务器名称
 
 ​	2.修改 dbsql.py 中
 
-```
+```python
 def __init__(self):
         # 连接本地数据库
         self.conn = pymysql.connect(

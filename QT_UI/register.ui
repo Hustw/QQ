@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>705</width>
+    <height>649</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="label_nickname">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>137</y>
+     <width>36</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>昵称</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_pswd">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>500</y>
+     <width>36</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>密码</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_cfrmpwd">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>540</y>
+     <width>72</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定密码</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_nickname">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>137</y>
+     <width>193</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请输入昵称</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_pswd">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>500</y>
+     <width>193</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>6-12位字母或数字</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_cfrmpwd">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>540</y>
+     <width>193</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="placeholderText">
+    <string>请再次输入密码 </string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_male">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>177</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>男</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_famale">
+   <property name="geometry">
+    <rect>
+     <x>326</x>
+     <y>177</y>
+     <width>51</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>女</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_gender">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>177</y>
+     <width>36</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>性别</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_cancel">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>580</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QRadioButton" name="radioButton_none">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>177</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>保密</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_region">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>214</y>
+     <width>36</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>地区</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit">
+   <property name="geometry">
+    <rect>
+     <x>-390</x>
+     <y>670</y>
+     <width>113</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_region_prov">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>214</y>
+     <width>193</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="lineEdit_region_city">
+   <property name="geometry">
+    <rect>
+     <x>384</x>
+     <y>214</y>
+     <width>193</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_region_prov">
+   <property name="geometry">
+    <rect>
+     <x>354</x>
+     <y>214</y>
+     <width>18</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>省</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_region_city">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>214</y>
+     <width>18</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>市</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_signature">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>293</y>
+     <width>72</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>个性签名</string>
+   </property>
+  </widget>
+  <widget class="QTextEdit" name="textEdit_signature">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>293</y>
+     <width>421</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_birthday">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>254</y>
+     <width>36</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>生日</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_birthday_month">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>254</y>
+     <width>99</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_birthday_day">
+   <property name="geometry">
+    <rect>
+     <x>465</x>
+     <y>254</y>
+     <width>99</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_birthday_month">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>254</y>
+     <width>18</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>月</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_birthday_day">
+   <property name="geometry">
+    <rect>
+     <x>586</x>
+     <y>254</y>
+     <width>18</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>日</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_regist">
+   <property name="geometry">
+    <rect>
+     <x>465</x>
+     <y>580</y>
+     <width>112</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>确定</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_image">
+   <property name="geometry">
+    <rect>
+     <x>71</x>
+     <y>50</y>
+     <width>91</width>
+     <height>34</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>上传头像</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_image">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>40</y>
+     <width>81</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>TextLabel</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_birthday_year">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>254</y>
+     <width>31</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>年</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_birthday_year">
+   <property name="geometry">
+    <rect>
+     <x>152</x>
+     <y>254</y>
+     <width>99</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

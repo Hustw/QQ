@@ -1,0 +1,5 @@
+# pip install -U -r requirements.txt
+pyqt5 == 5.15.1
+pymysql == 0.10.1
+numpy == 1.18.1
+opencv-python == 4.4.0.44
